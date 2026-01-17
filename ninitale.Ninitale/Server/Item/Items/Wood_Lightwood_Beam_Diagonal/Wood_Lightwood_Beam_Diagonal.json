@@ -1,0 +1,55 @@
+{
+  "TranslationProperties": {
+    "Name": "ninitale.items.Wood_Lightwood_Beam_Diagonal.name"
+  },
+  "Parent": "Wood_Softwood_Beam_Diagonal",
+  "Icon": "Icons/ItemsGenerated/Wood_Lightwood_Beam_Diagonal.png",
+  "Set": "Wood_Lightwood_Planks",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Lightwood",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Beam"
+        ]
+      }
+    ],
+    "OutputQuantity": 2
+  },
+  "BlockType": {
+    "ParticleColor": "#bba58b",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Lightwood.png",
+        "Weight": 1
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ],
+    "Family": [
+      "Lightwood"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

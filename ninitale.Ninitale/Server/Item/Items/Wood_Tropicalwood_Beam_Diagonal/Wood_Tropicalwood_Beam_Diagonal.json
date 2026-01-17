@@ -1,0 +1,55 @@
+{
+  "TranslationProperties": {
+    "Name": "ninitale.items.Wood_Tropicalwood_Beam_Diagonal.name"
+  },
+  "Parent": "Wood_Softwood_Beam_Diagonal",
+  "Icon": "Icons/ItemsGenerated/Wood_Tropicalwood_Beam_Diagonal.png",
+  "Set": "Wood_Tropicalwood_Planks",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Tropicalwood",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Beam"
+        ]
+      }
+    ],
+    "OutputQuantity": 2
+  },
+  "BlockType": {
+    "ParticleColor": "#c39f5d",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Tropicalwood.png",
+        "Weight": 1
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ],
+    "Family": [
+      "Tropicalwood"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

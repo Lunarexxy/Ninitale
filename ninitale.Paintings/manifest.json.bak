@@ -1,0 +1,20 @@
+{
+  "Group": "ninitale",
+  "Name": "Paintings",
+  "Version": "1.0.0",
+  "Description": "paintings of nini",
+  "Authors": [
+    {
+      "Name": "Lunarexxy",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "nini.zone",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}
