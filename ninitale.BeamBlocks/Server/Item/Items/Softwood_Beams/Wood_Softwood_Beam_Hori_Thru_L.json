@@ -34,7 +34,7 @@
         "GatherType": "Woods"
       }
     },
-    "VariantRotation": "NESW",
+    "VariantRotation": "UpDownNESW",
     "BlockParticleSetId": "Wood",
     "Supporting": {
       "Down": [
