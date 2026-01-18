@@ -5,7 +5,6 @@
   },
   "ItemLevel": 15,
   "MaxStack": 100,
-  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam_Hori_Thru_L.png",
   "Categories": [
     "Blocks.Structural"
   ],
@@ -78,5 +77,6 @@
       0,
       -13.5
     ]
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam_Hori_Thru_L.png"
 }

@@ -5,7 +5,6 @@
   },
   "ItemLevel": 15,
   "MaxStack": 100,
-  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam_Full_Cross_X.png",
   "Categories": [
     "Blocks.Structural"
   ],
@@ -96,5 +95,6 @@
       0,
       -13.5
     ]
-  }
+  },
+  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam_Full_Cross_X.png"
 }
