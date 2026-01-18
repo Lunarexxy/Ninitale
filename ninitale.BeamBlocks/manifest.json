@@ -1,7 +1,7 @@
 {
   "Group": "ninitale",
   "Name": "BeamBlocks",
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "Description": "Adds more beam types, creating options for connecting the vanilla horizontal and vertical beams.",
   "Authors": [
     {
