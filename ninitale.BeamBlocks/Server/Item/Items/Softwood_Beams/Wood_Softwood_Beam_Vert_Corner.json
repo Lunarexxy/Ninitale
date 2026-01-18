@@ -1,11 +1,11 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Wood_Softwood_Beam.name",
-    "Description": ""
+    "Name": "nini_beamblocks.items.Wood_Softwood_Beam_Corner_V.name",
+    "Description": "nini_beamblocks.items.Wood_Beam_Corner_Hint.description"
   },
   "ItemLevel": 15,
   "MaxStack": 100,
-  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam.png",
+  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam_Vert_Corner.png",
   "Categories": [
     "Blocks.Structural"
   ],
@@ -32,13 +32,13 @@
         ]
       }
     ],
-    "OutputQuantity": 2
+    "OutputQuantity": 1
   },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Structures/Tubes/Long_Thin.blockymodel",
+    "CustomModel": "Blocks/Structures/Tubes/Vert_Corner.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Softwood.png",
@@ -46,14 +46,14 @@
       }
     ],
     "Group": "Wood",
-    "HitboxType": "Beam_Thin",
+    "HitboxType": "Stairs",
     "Flags": {},
     "Gathering": {
       "Breaking": {
         "GatherType": "Woods"
       }
     },
-    "VariantRotation": "Pipe",
+    "VariantRotation": "UpDownNESW",
     "BlockParticleSetId": "Wood",
     "Supporting": {
       "Down": [
@@ -68,7 +68,8 @@
       ]
     },
     "ParticleColor": "#65482d",
-    "BlockSoundSetId": "Branch"
+    "BlockSoundSetId": "Branch",
+    "FlipType": "Symmetric"
   },
   "ResourceTypes": [
     {

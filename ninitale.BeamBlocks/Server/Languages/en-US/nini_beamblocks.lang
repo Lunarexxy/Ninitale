@@ -1,20 +1,68 @@
-items.Wood_Beam_Hammerable.description = "Use a hammer on this block to change it between straight, corner, and cross variants.\n(WIP!)"
+items.Wood_Beam_Corner_Hint.description = "Use a hammer on this block to change it between beam corner variants."
+items.Wood_Beam_Cross_Hint.description = "Use a hammer on this block to change it between beam cross variants."
 
-items.Wood_Softwood_Beam_Diagonal_H.name = Softwood Beam Diagonal (H)
+items.Wood_Softwood_Beam_Cross.name = Softwood Beam Cross
+items.Wood_Softwood_Beam_Corner_H.name = Softwood Beam Corner (H)
 items.Wood_Softwood_Beam_Cross_H.name = Softwood Beam Cross (H)
-items.Wood_Softwood_Beam_Diagonal_V.name = Softwood Beam Diagonal (V)
+items.Wood_Softwood_Beam_Corner_V.name = Softwood Beam Corner (V)
 items.Wood_Softwood_Beam_Cross_V.name = Softwood Beam Cross (V)
-items.Wood_Softwood_Beam_Corner.name = Softwood Beam Corner
 
-items.Wood_Blackwood_Beam_Diagonal.name = Blackwood Beam Diagonal
-items.Wood_Darkwood_Beam_Diagonal.name = Darkwood Beam Diagonal
-items.Wood_Deadwood_Beam_Diagonal.name = Deadwood Beam Diagonal
-items.Wood_Drywood_Beam_Diagonal.name = Drywood Beam Diagonal
-items.Wood_Goldenwood_Beam_Diagonal.name = Goldenwood Beam Diagonal
-items.Wood_Greenwood_Beam_Diagonal.name = Greenwood Beam Diagonal
-items.Wood_Hardwood_Beam_Diagonal.name = Hardwood Beam Diagonal
-items.Wood_Lightwood_Beam_Diagonal.name = Lightwood Beam Diagonal
-items.Wood_Redwood_Beam_Diagonal.name = Redwood Beam Diagonal
-items.Wood_Tropicalwood_Beam_Diagonal.name = Tropicalwood Beam Diagonal
+items.Wood_Blackwood_Beam_Cross.name = Blackwood Beam Cross
+items.Wood_Blackwood_Beam_Corner_H.name = Blackwood Beam Corner (H)
+items.Wood_Blackwood_Beam_Cross_H.name = Blackwood Beam Cross (H)
+items.Wood_Blackwood_Beam_Corner_V.name = Blackwood Beam Corner (V)
+items.Wood_Blackwood_Beam_Cross_V.name = Blackwood Beam Cross (V)
 
-items.Wood_Test.name = Softwood how do i make hammers hammer you
+items.Wood_Darkwood_Beam_Cross.name = Darkwood Beam Cross
+items.Wood_Darkwood_Beam_Corner_H.name = Darkwood Beam Corner (H)
+items.Wood_Darkwood_Beam_Cross_H.name = Darkwood Beam Cross (H)
+items.Wood_Darkwood_Beam_Corner_V.name = Darkwood Beam Corner (V)
+items.Wood_Darkwood_Beam_Cross_V.name = Darkwood Beam Cross (V)
+
+items.Wood_Deadwood_Beam_Cross.name = Deadwood Beam Cross
+items.Wood_Deadwood_Beam_Corner_H.name = Deadwood Beam Corner (H)
+items.Wood_Deadwood_Beam_Cross_H.name = Deadwood Beam Cross (H)
+items.Wood_Deadwood_Beam_Corner_V.name = Deadwood Beam Corner (V)
+items.Wood_Deadwood_Beam_Cross_V.name = Deadwood Beam Cross (V)
+
+items.Wood_Drywood_Beam_Cross.name = Drywood Beam Cross
+items.Wood_Drywood_Beam_Corner_H.name = Drywood Beam Corner (H)
+items.Wood_Drywood_Beam_Cross_H.name = Drywood Beam Cross (H)
+items.Wood_Drywood_Beam_Corner_V.name = Drywood Beam Corner (V)
+items.Wood_Drywood_Beam_Cross_V.name = Drywood Beam Cross (V)
+
+items.Wood_Goldenwood_Beam_Cross.name = Goldenwood Beam Cross
+items.Wood_Goldenwood_Beam_Corner_H.name = Goldenwood Beam Corner (H)
+items.Wood_Goldenwood_Beam_Cross_H.name = Goldenwood Beam Cross (H)
+items.Wood_Goldenwood_Beam_Corner_V.name = Goldenwood Beam Corner (V)
+items.Wood_Goldenwood_Beam_Cross_V.name = Goldenwood Beam Cross (V)
+
+items.Wood_Greenwood_Beam_Cross.name = Greenwood Beam Cross
+items.Wood_Greenwood_Beam_Corner_H.name = Greenwood Beam Corner (H)
+items.Wood_Greenwood_Beam_Cross_H.name = Greenwood Beam Cross (H)
+items.Wood_Greenwood_Beam_Corner_V.name = Greenwood Beam Corner (V)
+items.Wood_Greenwood_Beam_Cross_V.name = Greenwood Beam Cross (V)
+
+items.Wood_Hardwood_Beam_Cross.name = Hardwood Beam Cross
+items.Wood_Hardwood_Beam_Corner_H.name = Hardwood Beam Corner (H)
+items.Wood_Hardwood_Beam_Cross_H.name = Hardwood Beam Cross (H)
+items.Wood_Hardwood_Beam_Corner_V.name = Hardwood Beam Corner (V)
+items.Wood_Hardwood_Beam_Cross_V.name = Hardwood Beam Cross (V)
+
+items.Wood_Lightwood_Beam_Cross.name = Lightwood Beam Cross
+items.Wood_Lightwood_Beam_Corner_H.name = Lightwood Beam Corner (H)
+items.Wood_Lightwood_Beam_Cross_H.name = Lightwood Beam Cross (H)
+items.Wood_Lightwood_Beam_Corner_V.name = Lightwood Beam Corner (V)
+items.Wood_Lightwood_Beam_Cross_V.name = Lightwood Beam Cross (V)
+
+items.Wood_Redwood_Beam_Cross.name = Redwood Beam Cross
+items.Wood_Redwood_Beam_Corner_H.name = Redwood Beam Corner (H)
+items.Wood_Redwood_Beam_Cross_H.name = Redwood Beam Cross (H)
+items.Wood_Redwood_Beam_Corner_V.name = Redwood Beam Corner (V)
+items.Wood_Redwood_Beam_Cross_V.name = Redwood Beam Cross (V)
+
+items.Wood_Tropicalwood_Beam_Cross.name = Tropicalwood Beam Cross
+items.Wood_Tropicalwood_Beam_Corner_H.name = Tropicalwood Beam Corner (H)
+items.Wood_Tropicalwood_Beam_Cross_H.name = Tropicalwood Beam Cross (H)
+items.Wood_Tropicalwood_Beam_Corner_V.name = Tropicalwood Beam Corner (V)
+items.Wood_Tropicalwood_Beam_Cross_V.name = Tropicalwood Beam Cross (V)

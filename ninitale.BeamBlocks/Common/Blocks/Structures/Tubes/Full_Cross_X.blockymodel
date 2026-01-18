@@ -7,30 +7,30 @@
       "orientation": {"x": 0, "y": 0.70711, "z": 0, "w": 0.70711},
       "shape": {
         "type": "box",
-        "offset": {"x": 0, "y": -4, "z": 0},
+        "offset": {"x": 0, "y": 0, "z": 0},
         "stretch": {"x": 1, "y": 1, "z": 1},
         "settings": {
           "isPiece": false,
-          "size": {"x": 8, "y": 24, "z": 8}
+          "size": {"x": 8, "y": 32, "z": 8}
         },
         "textureLayout": {
           "back": {
-            "offset": {"x": 0, "y": 8},
+            "offset": {"x": 0, "y": 0},
             "mirror": {"x": false, "y": false},
             "angle": 0
           },
           "right": {
-            "offset": {"x": 8, "y": 8},
+            "offset": {"x": 8, "y": 0},
             "mirror": {"x": false, "y": false},
             "angle": 0
           },
           "front": {
-            "offset": {"x": 0, "y": 8},
+            "offset": {"x": 0, "y": 0},
             "mirror": {"x": false, "y": false},
             "angle": 0
           },
           "left": {
-            "offset": {"x": 8, "y": 8},
+            "offset": {"x": 8, "y": 0},
             "mirror": {"x": false, "y": false},
             "angle": 0
           },
@@ -54,7 +54,7 @@
         {
           "id": "2",
           "name": "BeamH--C1",
-          "position": {"x": 0, "y": 4, "z": 0},
+          "position": {"x": 0, "y": 0, "z": 0},
           "orientation": {"x": -0.5, "y": 0.5, "z": 0.5, "w": 0.5},
           "shape": {
             "type": "box",
@@ -106,8 +106,112 @@
         {
           "id": "3",
           "name": "BeamH--C2",
-          "position": {"x": 0, "y": 4, "z": 0},
+          "position": {"x": 0, "y": 0, "z": 0},
           "orientation": {"x": 0.5, "y": 0.5, "z": -0.5, "w": 0.5},
+          "shape": {
+            "type": "box",
+            "offset": {"x": 0, "y": -10, "z": 0},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 8, "y": 12, "z": 8},
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "back": {
+                "offset": {"x": 0, "y": 20},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "right": {
+                "offset": {"x": 8, "y": 20},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "front": {
+                "offset": {"x": 0, "y": 20},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "left": {
+                "offset": {"x": 8, "y": 20},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "top": {
+                "offset": {"x": 16, "y": 0},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 16, "y": 0},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        },
+        {
+          "id": "4",
+          "name": "BeamH--C3",
+          "position": {"x": 0, "y": 0, "z": 0},
+          "orientation": {"x": -0.70711, "y": 0, "z": 0, "w": 0.70711},
+          "shape": {
+            "type": "box",
+            "offset": {"x": 0, "y": -10, "z": 0},
+            "stretch": {"x": 1, "y": 1, "z": 1},
+            "settings": {
+              "isPiece": false,
+              "size": {"x": 8, "y": 12, "z": 8},
+              "isStaticBox": true
+            },
+            "textureLayout": {
+              "back": {
+                "offset": {"x": 0, "y": 20},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "right": {
+                "offset": {"x": 8, "y": 20},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "front": {
+                "offset": {"x": 0, "y": 20},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "left": {
+                "offset": {"x": 8, "y": 20},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "top": {
+                "offset": {"x": 16, "y": 0},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              },
+              "bottom": {
+                "offset": {"x": 16, "y": 0},
+                "mirror": {"x": false, "y": false},
+                "angle": 0
+              }
+            },
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": false,
+            "shadingMode": "standard"
+          }
+        },
+        {
+          "id": "5",
+          "name": "BeamH--C4",
+          "position": {"x": 0, "y": 0, "z": 0},
+          "orientation": {"x": 0.70711, "y": 0, "z": 0, "w": 0.70711},
           "shape": {
             "type": "box",
             "offset": {"x": 0, "y": -10, "z": 0},

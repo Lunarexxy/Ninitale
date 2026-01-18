@@ -1,11 +1,11 @@
 {
   "TranslationProperties": {
     "Name": "nini_beamblocks.items.Wood_Softwood_Beam_Diagonal.name",
-    "Description": "nini_beamblocks.items.Wood_Beam_Hammerable.description"
+    "Description": "nini_beamblocks.items.Wood_Beam_Cross_Hint.description"
   },
   "ItemLevel": 15,
   "MaxStack": 100,
-  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam_Cross_X.png",
+  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam_Full_Cross_X.png",
   "Categories": [
     "Blocks.Structural"
   ],
@@ -16,11 +16,29 @@
     "Secondary": "Block_Secondary"
   },
   "Set": "Wood_Softwood_Planks",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Softwood",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Beam"
+        ]
+      }
+    ],
+    "OutputQuantity": 1
+  },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Structures/Tubes/Long_Thin_Cross_X.blockymodel",
+    "CustomModel": "Blocks/Structures/Tubes/Full_Cross_X.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Softwood.png",
@@ -35,7 +53,7 @@
         "GatherType": "Woods"
       }
     },
-    "VariantRotation": "UpDownNESW",
+    "VariantRotation": "None",
     "BlockParticleSetId": "Wood",
     "Supporting": {
       "Down": [
