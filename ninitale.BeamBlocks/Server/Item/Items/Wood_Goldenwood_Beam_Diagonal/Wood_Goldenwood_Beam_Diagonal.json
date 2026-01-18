@@ -1,14 +1,14 @@
 {
   "TranslationProperties": {
-    "Name": "ninitale.items.Wood_Drywood_Beam_Diagonal.name"
+    "Name": "nini_beamblocks.items.Wood_Goldenwood_Beam_Diagonal.name"
   },
   "Parent": "Wood_Softwood_Beam_Diagonal",
-  "Icon": "Icons/ItemsGenerated/Wood_Drywood_Beam_Diagonal.png",
-  "Set": "Wood_Drywood_Planks",
+  "Icon": "Icons/ItemsGenerated/Wood_Goldenwood_Beam_Diagonal.png",
+  "Set": "Wood_Goldenwood_Planks",
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "Wood_Drywood",
+        "ResourceTypeId": "Wood_Goldenwood",
         "Quantity": 1
       }
     ],
@@ -24,12 +24,20 @@
     "OutputQuantity": 2
   },
   "BlockType": {
-    "ParticleColor": "#a2865d",
+    "ParticleColor": "#9a733c",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Drywood.png",
+        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Goldwood.png",
         "Weight": 1
       }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ],
+    "Family": [
+      "Goldenwood"
     ]
   },
   "IconProperties": {

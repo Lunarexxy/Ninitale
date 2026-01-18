@@ -1,14 +1,14 @@
 {
   "TranslationProperties": {
-    "Name": "ninitale.items.Wood_Greenwood_Beam_Diagonal.name"
+    "Name": "nini_beamblocks.items.Wood_Redwood_Beam_Diagonal.name"
   },
   "Parent": "Wood_Softwood_Beam_Diagonal",
-  "Icon": "Icons/ItemsGenerated/Wood_Greenwood_Beam_Diagonal.png",
-  "Set": "Wood_Greenwood_Planks",
+  "Icon": "Icons/ItemsGenerated/Wood_Redwood_Beam_Diagonal.png",
+  "Set": "Wood_Redwood_Planks",
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "Wood_Greenwood",
+        "ResourceTypeId": "Wood_Redwood",
         "Quantity": 1
       }
     ],
@@ -24,10 +24,10 @@
     "OutputQuantity": 2
   },
   "BlockType": {
-    "ParticleColor": "#9ca05b",
+    "ParticleColor": "#6b3820",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Greenwood.png",
+        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Redwood.png",
         "Weight": 1
       }
     ]
@@ -37,7 +37,7 @@
       "Wood"
     ],
     "Family": [
-      "Greenwood"
+      "Redwood"
     ]
   },
   "IconProperties": {

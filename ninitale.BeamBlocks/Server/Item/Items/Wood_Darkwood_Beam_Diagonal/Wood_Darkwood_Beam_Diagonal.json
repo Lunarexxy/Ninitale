@@ -1,14 +1,14 @@
 {
   "TranslationProperties": {
-    "Name": "ninitale.items.Wood_Blackwood_Beam_Diagonal.name"
+    "Name": "nini_beamblocks.items.Wood_Darkwood_Beam_Diagonal.name"
   },
   "Parent": "Wood_Softwood_Beam_Diagonal",
-  "Icon": "Icons/ItemsGenerated/Wood_Blackwood_Beam_Diagonal.png",
-  "Set": "Wood_Blackwood_Planks",
+  "Icon": "Icons/ItemsGenerated/Wood_Darkwood_Beam_Diagonal.png",
+  "Set": "Wood_Darkwood_Planks",
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "Wood_Blackwood",
+        "ResourceTypeId": "Wood_Darkwood",
         "Quantity": 1
       }
     ],
@@ -26,18 +26,18 @@
   "BlockType": {
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Blackwood.png",
+        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Darkwood.png",
         "Weight": 1
       }
     ],
-    "ParticleColor": "#443f37"
+    "ParticleColor": "#683e2e"
   },
   "Tags": {
     "Type": [
       "Wood"
     ],
     "Family": [
-      "Blackwood"
+      "Darkwood"
     ]
   },
   "IconProperties": {

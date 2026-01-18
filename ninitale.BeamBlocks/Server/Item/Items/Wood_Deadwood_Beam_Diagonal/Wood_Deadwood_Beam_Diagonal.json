@@ -1,14 +1,11 @@
 {
-  "TranslationProperties": {
-    "Name": "ninitale.items.Wood_Redwood_Beam_Diagonal.name"
-  },
   "Parent": "Wood_Softwood_Beam_Diagonal",
-  "Icon": "Icons/ItemsGenerated/Wood_Redwood_Beam_Diagonal.png",
-  "Set": "Wood_Redwood_Planks",
+  "Icon": "Icons/ItemsGenerated/Wood_Deadwood_Beam_Diagonal.png",
+  "Set": "Wood_Deadwood_Planks",
   "Recipe": {
     "Input": [
       {
-        "ResourceTypeId": "Wood_Redwood",
+        "ResourceTypeId": "Wood_Deadwood",
         "Quantity": 1
       }
     ],
@@ -24,21 +21,24 @@
     "OutputQuantity": 2
   },
   "BlockType": {
-    "ParticleColor": "#6b3820",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Redwood.png",
+        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Deadwood.png",
         "Weight": 1
       }
-    ]
+    ],
+    "ParticleColor": "#4e412c"
   },
   "Tags": {
     "Type": [
       "Wood"
     ],
     "Family": [
-      "Redwood"
+      "Deadwood"
     ]
+  },
+  "TranslationProperties": {
+    "Name": "nini_beamblocks.items.Wood_Deadwood_Beam_Diagonal.name"
   },
   "IconProperties": {
     "Scale": 0.58823,

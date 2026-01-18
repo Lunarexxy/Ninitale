@@ -1,8 +1,8 @@
 {
   "Group": "ninitale",
-  "Name": "Ninitale",
-  "Version": "1.0.1",
-  "Description": "pack of nini",
+  "Name": "BeamBlocks",
+  "Version": "1.0.2",
+  "Description": "Adds more beam types, creating options for connecting the vanilla horizontal and vertical beams.",
   "Authors": [
     {
       "Name": "Lunarexxy",
