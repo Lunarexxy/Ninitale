@@ -16,24 +16,6 @@
     "Secondary": "Block_Secondary"
   },
   "Set": "Wood_Softwood_Planks",
-  "Recipe": {
-    "Input": [
-      {
-        "ResourceTypeId": "Wood_Softwood",
-        "Quantity": 1
-      }
-    ],
-    "BenchRequirement": [
-      {
-        "Id": "Builders",
-        "Type": "StructuralCrafting",
-        "Categories": [
-          "Beam"
-        ]
-      }
-    ],
-    "OutputQuantity": 2
-  },
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
