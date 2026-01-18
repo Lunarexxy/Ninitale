@@ -1,6 +1,11 @@
 items.Wood_Beam_Hammerable.description = "Use a hammer on this block to change it between straight, corner, and cross variants.\n(WIP!)"
 
-items.Wood_Softwood_Beam_Diagonal.name = Softwood Beam Diagonal
+items.Wood_Softwood_Beam_Diagonal_H.name = Softwood Beam Diagonal (H)
+items.Wood_Softwood_Beam_Cross_H.name = Softwood Beam Cross (H)
+items.Wood_Softwood_Beam_Diagonal_V.name = Softwood Beam Diagonal (V)
+items.Wood_Softwood_Beam_Cross_V.name = Softwood Beam Cross (V)
+items.Wood_Softwood_Beam_Corner.name = Softwood Beam Corner
+
 items.Wood_Blackwood_Beam_Diagonal.name = Blackwood Beam Diagonal
 items.Wood_Darkwood_Beam_Diagonal.name = Darkwood Beam Diagonal
 items.Wood_Deadwood_Beam_Diagonal.name = Deadwood Beam Diagonal
