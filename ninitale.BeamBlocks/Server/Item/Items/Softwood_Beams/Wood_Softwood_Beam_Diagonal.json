@@ -1,0 +1,82 @@
+{
+  "TranslationProperties": {
+    "Name": "nini_beamblocks.items.Wood_Softwood_Beam_Diagonal.name",
+    "Description": "nini_beamblocks.items.Wood_Beam_Hammerable.description"
+  },
+  "ItemLevel": 15,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam_Diagonal.png",
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "FuelQuality": 3.0,
+  "PlayerAnimationsId": "Item",
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Set": "Wood_Softwood_Planks",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Structures/Tubes/Long_Thin_Diagonal.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Softwood.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Wood",
+    "HitboxType": "Stairs",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "VariantRotation": "UpDownNESW",
+    "BlockParticleSetId": "Wood",
+    "Supporting": {
+      "Down": [
+        {
+          "FaceType": "Wood_Beam"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Wood_Beam"
+        }
+      ]
+    },
+    "ParticleColor": "#65482d",
+    "BlockSoundSetId": "Branch",
+    "FlipType": "Symmetric"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Wood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

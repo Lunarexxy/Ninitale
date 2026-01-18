@@ -1,11 +1,11 @@
 {
   "TranslationProperties": {
     "Name": "nini_beamblocks.items.Wood_Softwood_Beam_Diagonal.name",
-    "Description": ""
+    "Description": "nini_beamblocks.items.Wood_Beam_Hammerable.description"
   },
   "ItemLevel": 15,
   "MaxStack": 100,
-  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam_Diagonal.png",
+  "Icon": "Icons/ItemsGenerated/Wood_Softwood_Beam_Diagonal_Horizontal.png",
   "Categories": [
     "Blocks.Structural"
   ],
@@ -20,7 +20,7 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Structures/Tubes/Long_Thin_Diagonal.blockymodel",
+    "CustomModel": "Blocks/Structures/Tubes/Long_Thin_Diagonal_Horizontal.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Structures/Tubes/Long_Thin_Textures/Softwood.png",
@@ -28,14 +28,14 @@
       }
     ],
     "Group": "Wood",
-    "HitboxType": "Stairs",
+    "HitboxType": "Beam_Diagonal_Horizontal",
     "Flags": {},
     "Gathering": {
       "Breaking": {
         "GatherType": "Woods"
       }
     },
-    "VariantRotation": "UpDownNESW",
+    "VariantRotation": "NESW",
     "BlockParticleSetId": "Wood",
     "Supporting": {
       "Down": [
