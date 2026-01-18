@@ -1,5 +1,5 @@
-items.Wood_Beam_Corner_Hint.description = "Use a hammer on this block to change it between beam corner variants."
-items.Wood_Beam_Cross_Hint.description = "Use a hammer on this block to change it between beam cross variants."
+items.Wood_Beam_Corner_Hint.description = "<color is="#bbaaff">Type: Corner</color>\nUse a hammer on this block to change it between all corner variants."
+items.Wood_Beam_Cross_Hint.description = "<color is="#ffddbb">Type: Crossbeam</color>\nUse a hammer on this block to change it between all crossbeam variants."
 
 items.Wood_Softwood_Beam_Cross.name = Softwood Beam Cross
 items.Wood_Softwood_Beam_Corner_H.name = Softwood Beam Corner (H)
