@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
     "Name": "server.items.Furniture_Village_Painting_1x1.name",
-    "Description": "ninitale.items.Blank_Painting.description"
+    "Description": "nini_paintings.items.Blank_Painting.description"
   },
   "Icon": "Icons/ItemsGenerated/Furniture_Village_Painting_1x1.png",
   "Categories": [
