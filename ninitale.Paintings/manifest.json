@@ -1,16 +1,16 @@
 {
   "Group": "ninitale",
   "Name": "Paintings",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "paintings of nini",
   "Authors": [
     {
       "Name": "Lunarexxy",
       "Email": "",
-      "Url": ""
+      "Url": "https://nini.zone"
     }
   ],
-  "Website": "nini.zone",
+  "Website": "https://nini.zone",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},
