@@ -1,0 +1,20 @@
+{
+  "Group": "ninitale",
+  "Name": "Ninitale Tool Tweaks",
+  "Version": "1.0.0",
+  "Description": "tool tweaks of nini",
+  "Authors": [
+    {
+      "Name": "Lunarexxy",
+      "Email": "",
+      "Url": "https://nini.zone"
+    }
+  ],
+  "Website": "https://nini.zone",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}
