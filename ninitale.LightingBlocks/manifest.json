@@ -1,0 +1,20 @@
+{
+  "Group": "ninitale",
+  "Name": "Lighting Blocks",
+  "Version": "1.0.0",
+  "Description": "light up a nini",
+  "Authors": [
+    {
+      "Name": "Lunarexxy",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "https://nini.zone",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}
