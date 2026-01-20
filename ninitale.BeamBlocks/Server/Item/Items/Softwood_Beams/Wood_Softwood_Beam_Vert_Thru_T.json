@@ -38,12 +38,10 @@
     "VariantRotation": "NESW",
     "BlockParticleSetId": "Wood",
     "Supporting": {
-      "Down": [
+      "All": [
         {
-          "FaceType": "Wood_Beam"
-        }
-      ],
-      "Up": [
+          "FaceType": "Branch"
+        },
         {
           "FaceType": "Wood_Beam"
         }

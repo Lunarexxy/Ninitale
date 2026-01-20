@@ -45,7 +45,6 @@
       }
     ],
     "Group": "Wood",
-    "HitboxType": "Stairs",
     "Flags": {},
     "Gathering": {
       "Breaking": {
@@ -54,21 +53,19 @@
     },
     "VariantRotation": "None",
     "BlockParticleSetId": "Wood",
+    "ParticleColor": "#65482d",
+    "BlockSoundSetId": "Branch",
+    "FlipType": "Symmetric",
     "Supporting": {
-      "Down": [
+      "All": [
         {
-          "FaceType": "Wood_Beam"
-        }
-      ],
-      "Up": [
+          "FaceType": "Branch"
+        },
         {
           "FaceType": "Wood_Beam"
         }
       ]
-    },
-    "ParticleColor": "#65482d",
-    "BlockSoundSetId": "Branch",
-    "FlipType": "Symmetric"
+    }
   },
   "ResourceTypes": [
     {

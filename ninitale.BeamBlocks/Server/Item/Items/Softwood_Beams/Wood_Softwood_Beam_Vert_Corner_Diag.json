@@ -40,11 +40,17 @@
       "Down": [
         {
           "FaceType": "Wood_Beam"
+        },
+        {
+          "FaceType": "Branch"
         }
       ],
       "Up": [
         {
           "FaceType": "Wood_Beam"
+        },
+        {
+          "FaceType": "Branch"
         }
       ]
     },
