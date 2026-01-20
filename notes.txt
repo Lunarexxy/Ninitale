@@ -1,0 +1,73 @@
+Adding selectors to interactions seems to be the way to pick multiple blocks to affect.
+
+But doing so thru the editor causes it to crash.
+Manually writing in the Selector type in the JSON edit view seems to work.
+
+The shovel uses a sequence of:
+ (Shovel_Attack)
+   (probably tries to attack first, if anything is in range,
+   though attacks literally don't work so idk)
+   
+  Type: Chaining
+    (what does this mean)
+  Chaining Allowance 1.25
+  Next: Shovel_Dig
+  
+  (Shovel_Dig)
+  Type: Simple (A)
+  Next: Selector (A)
+  
+  (Selector A)
+  Type: Selector
+  Selector: Horizontal
+    Length: 30
+	Direction: ToLeft
+	etc.
+	Test Line Of Sight: True
+	  (does this rotate with player view?
+	   or does it just block you from hitting stuff thru walls?)
+  Hit Block
+    Interaction
+	  Type: Replace
+	  Var: Downstrike_Hit_Block
+	  Default Ok: True
+      Default Value:
+	    Interaction
+          Type: Block_Break_Adventure (reference)
+  Fail On: Neither
+  Next: Simple
+  
+  (Simple B)
+  Type: Simple
+  Run Time: 0.5
+  (seemingly does nothing. just a finish delay?)
+  
+  
+  
+
+It seems using projectiles for block change interactions isn't possible.
+But the healing totem staff can create a projectile Healing Totem deployable that, on "miss" (aka probably not hitting an entity) spawns the deployable itself.
+That deployable has AOE effects. Not sure if it can affect blocks in that range.
+
+Interestingly the ProjectileMiss key has two interactions. Does that mean it's hardcoded to use the first one on ground impact, and the second on no impact?
+Or perhaps they're just serially executed by default, one after the other.
+Does that mean a parallel interaction will run all its contained interactions at the same time? Will it count as finished when they're all done?
+
+Also spawning a deployable and setting its AOE type or whatever property crashes the editor too.
+
+
+Weapon_Deployable_Healing_Totem
+(Item)
+  Interactions:
+    Simple (for delay I think)
+	Projectile:
+	  Config: Projectile_Config_Healing_Totem_Deploy
+	  (ProjectileConfig)
+
+Projectile_Config_Healing_Totem_Deploy
+(ProjectileConfig)
+
+
+
+
+It seems like selectors prefer using the Next interaction over the HitBlock/HitEntity things. Not sure how to iterate over all reached blocks/entities.
