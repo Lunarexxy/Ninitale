@@ -1,5 +1,8 @@
 {
   "Icon": "Icons/ItemsGenerated/Rotation_Gizmo.png",
+  "TranslationProperties": {
+    "Name": "nini_helperblocks.items.Rotation_Gizmo.name"
+  },
   "PlayerAnimationsId": "Block",
   "BlockType": {
     "Material": "Solid",
