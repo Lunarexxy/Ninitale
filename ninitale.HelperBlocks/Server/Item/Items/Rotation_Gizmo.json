@@ -1,0 +1,36 @@
+{
+  "Icon": "Icons/ItemsGenerated/Rotation_Gizmo.png",
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Textures": [
+      {
+        "All": "BlockTextures/Soil_Dirt.png",
+        "Weight": 1
+      }
+    ],
+    "BlockSoundSetId": "Dirt",
+    "BlockBreakingDecalId": "Breaking_Decals_Soil",
+    "CustomModel": "Blocks/Gizmo/RotationGizmo.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Gizmo/GizmoTexture.png"
+      }
+    ],
+    "VariantRotation": "UpDownNESW"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

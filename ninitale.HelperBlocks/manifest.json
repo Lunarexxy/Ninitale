@@ -1,0 +1,20 @@
+{
+  "Group": "ninitale",
+  "Name": "HelperBlocks",
+  "Version": "1.0.0",
+  "Description": "helpers of nini",
+  "Authors": [
+    {
+      "Name": "Lunarexxy",
+      "Email": "",
+      "Url": "https://nini.zone"
+    }
+  ],
+  "Website": "https://nini.zone",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}
