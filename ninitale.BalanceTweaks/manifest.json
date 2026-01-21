@@ -1,8 +1,8 @@
 {
   "Group": "ninitale",
-  "Name": "Ninitale Tool Tweaks",
+  "Name": "Balance Tweaks",
   "Version": "1.0.0",
-  "Description": "tool tweaks of nini",
+  "Description": "Minor balance tweaks to vanilla items.",
   "Authors": [
     {
       "Name": "Lunarexxy",
