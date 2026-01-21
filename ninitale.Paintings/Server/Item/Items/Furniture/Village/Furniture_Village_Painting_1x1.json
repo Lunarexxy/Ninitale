@@ -11,11 +11,11 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Decorative_Sets/Village/Painting.blockymodel",
+    "CustomModel": "Blocks/Paintings/Small_Painting.blockymodel",
     "CustomModelTexture": [
       {
         "Weight": 1,
-        "Texture": "Blocks/Decorative_Sets/Village/Painting_Texture.png"
+        "Texture": "BlockTextures/Small_Painting_Original.png"
       }
     ],
     "CustomModelScale": 1,
@@ -38,14 +38,14 @@
   "PlayerAnimationsId": "Block",
   "IconProperties": {
     "Scale": 0.68,
-    "Translation": [
-      8.5,
-      -19.7
-    ],
     "Rotation": [
       22.5,
       45,
       22.5
+    ],
+    "Translation": [
+      8.5,
+      -19.7
     ]
   },
   "ResourceTypes": [
