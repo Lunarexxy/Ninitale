@@ -1,6 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "nini_paintings.items.Small_Painting_Nini.name"
+    "Name": "nini_paintings.items.Small_Painting_Nini.name",
+    "Description": "nini_paintings.items.Small_Painting_Nini.description"
   },
   "Icon": "Icons/ItemsGenerated/Small_Painting_Nini.png",
   "Categories": [

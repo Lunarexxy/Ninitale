@@ -1,6 +1,11 @@
 items.Small_Painting_Nini.name = "Painting of Nini"
+items.Small_Painting_Nini.description = "Artist: Lunarexxy"
+
 items.Small_Painting_Bcount.name = "Painting of B-count"
+items.Small_Painting_Bcount.description = "Artist: Lunarexxy"
+
 items.Small_Painting_Mighty.name = "Painting of Mighty"
+items.Small_Painting_Mighty.description = "Artist: Lunarexxy"
 
 items.Blank_Painting.description = "A blank paint canvas.\nUse a hammer to change the artwork displayed."
 items.Blank_Painting_Warn.description = "A blank paint canvas.\nUse a hammer to change the artwork displayed. <color is="#dd8888">\n(No custom art has been added for this variant yet!)</color>"
