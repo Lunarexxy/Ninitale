@@ -8,6 +8,9 @@ They're generally tested and ready for use. The exception is the WIP pack, which
  * Only supports Softwood at the moment. (WIP!)
  * Textures may not line up perfectly with vanilla beams, due to block rotation mis-aligning it. I can't fix it.
 
+**Paintings:**
+ * The 1x1 painting frame might look a bit off. This seems to be a Hytale rendering bug. I can't fix it.
+
 ## Editing mods
 
 Edit modpacks on a world that you can easily restart at will. _(So ideally not a dedicated server.)_
