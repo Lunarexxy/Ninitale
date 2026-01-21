@@ -2,15 +2,17 @@ This is a collection of Hytale mods I've made.
 
 They're generally tested and ready for use. The exception is the WIP pack, which I use to store whatever I've been working on that I want to save.
 
-## TODO
+## Known issues
 
 **Beam Blocks:**
-
-* Support all wood types instead of just Softwood
+ * Only supports Softwood at the moment. (WIP!)
+ * Textures may not line up perfectly with vanilla beams, due to block rotation mis-aligning it. I can't fix it.
 
 ## Editing mods
 
-Edit modpacks on a clientside instance that you can easily restart at will. Not everything hot-reloads cleanly at the moment, and sometimes the game can enter an odd state where your changes are not fully applied until a server restart. This especially applies to new files, like block textures or newly generated icons.
+Edit modpacks on a world that you can easily restart at will. _(So ideally not a dedicated server.)_
+
+Not everything hot-reloads cleanly at the moment, and sometimes the game can enter an odd state where your changes are not fully applied until a server restart. This especially applies to new files, like block textures or newly generated icons.
 
 New or WIP packs should be put in their own modpack folder.
 
