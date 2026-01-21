@@ -16,3 +16,9 @@ Language (.lang) files should be named after the modpack, to avoid conflicts. I'
 **Install:**
 1. Place the updated modpacks in the server's "mods/" folder, e.g. "mods/ninitale.BeamBlocks/"
 2. Restart server.
+
+## Copyright/License
+
+You are generally free to copy and modify any and all contents of this repository for your own personal use, unless otherwise specified.
+
+The Paintings modpack contains art assets derived from vanilla Hytale assets, with my own artwork applied.
