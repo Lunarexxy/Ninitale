@@ -1,20 +1,18 @@
 ## Editing mods
 
+Edit modpacks on a clientside instance that you can easily restart at will. Not everything hot-reloads cleanly at the moment, and sometimes the game can enter an odd state where your changes are not fully applied until a server restart. This especially applies to new files, like block textures or newly generated icons.
+
 New or WIP packs should be put in their own modpack folder.
 
-Edit them clientside. Editing live on a dedicated server is unreliable as files don't update properly.
-
-The asset editor also struggles to detect files that were modified outside the editor itself, sometimes. A game restart can fix it.
-
-Tested and functioning packs can be merged into ninitale.Ninitale.
+Language (.lang) files should be named after the modpack, to avoid conflicts. I'm not entirely sure if this is strictly required, but when I had a file called server.lang, it overrode all built-in language translations, rather than adding a few new ones, so this seems to be safer.
 
 ## Installing
 
-**Before adding to the server:**
-1. Stop the server to save everything and kick everyone. (This made FTP access not work so server might need to restart anyway idk)
+**Before adding to a dedicated server:**
+1. Stop the server to save everything and kick everyone.
 2. Back up everything on the server except the Server/ folder and Assets.zip file.
-3. Remove the folder of the modpack being changed.
+3. Fully remove the folders of the modpacks being changed.
 
 **Install:**
-1. Place the updated modpack in the server's "mods/" folder, e.g. "mods/ninitale.Ninitale/"
+1. Place the updated modpacks in the server's "mods/" folder, e.g. "mods/ninitale.BeamBlocks/"
 2. Restart server.
