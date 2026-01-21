@@ -1,0 +1,19 @@
+{
+  "Group": "ninitale",
+  "Name": "WIP",
+  "Version": "1.0.0",
+  "Description": "nini works in progress",
+  "Authors": [
+    {
+      "Name": "Lunarexxy",
+      "Email": "",
+      "Url": "https://nini.zone"
+    }
+  ],
+  "Website": "https://nini.zone",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true
+}

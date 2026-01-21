@@ -1,0 +1,89 @@
+{
+  "Model": "Skeleton_Mage_Corruption_Orb",
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 15.0,
+    "TerminalVelocityAir": 50,
+    "TerminalVelocityWater": 15,
+    "SticksVertically": false,
+    "Bounciness": 0
+  },
+  "LaunchForce": 10.0,
+  "SpawnOffset": {
+    "X": 0.3,
+    "Y": -0.5,
+    "Z": -0.6
+  },
+  "SpawnRotationOffset": {
+    "Pitch": 10.0,
+    "Yaw": 5,
+    "Roll": 0
+  },
+  "Interactions": {
+    "ProjectileMiss": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "RunTime": 0.25,
+          "Next": {
+            "Type": "Selector",
+            "Selector": {
+              "Id": "AOECircle",
+              "Range": 3,
+              "Height": 1,
+              "Offset": {
+                "Y": -1
+              }
+            },
+            "FailOn": "Entity",
+            "IgnoreOwner": false,
+            "Failed": {
+              "Type": "RemoveEntity"
+            },
+            "HitBlock": {
+              "Interactions": [
+                {
+                  "Type": "Serial",
+                  "Interactions": [
+                    {
+                      "Type": "ChangeBlock",
+                      "Changes": {
+                        "Soil_Dirt": "Soil_Grass",
+                        "Soil_Grass": "Soil_Dirt"
+                      },
+                      "UseLatestTarget": false
+                    }
+                  ]
+                }
+              ]
+            },
+            "Next": {
+              "Type": "RemoveEntity"
+            },
+            "RunTime": 0.25,
+            "HitEntity": {
+              "Interactions": [
+                {
+                  "Type": "RemoveEntity"
+                }
+              ]
+            },
+            "CancelOnItemChange": true
+          },
+          "CancelOnItemChange": true
+        }
+      ],
+      "Cooldown": {
+        "Cooldown": 1,
+        "Id": "GrassStaffCooldown"
+      }
+    },
+    "ProjectileHit": {
+      "Interactions": [
+        {
+          "Type": "RemoveEntity"
+        }
+      ]
+    }
+  }
+}

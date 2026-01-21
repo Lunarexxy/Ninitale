@@ -1,0 +1,24 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Dirt_Tilled.name"
+  },
+  "ItemLevel": 10,
+  "Icon": "Icons/ItemsGenerated/Soil_Dirt_Tilled.png",
+  "Categories": [
+    "Blocks.Soils"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "Tags": {
+    "Type": [
+      "Soil"
+    ],
+    "Family": [
+      "Dirt"
+    ],
+    "SubType": [
+      "Tilled"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft"
+}
