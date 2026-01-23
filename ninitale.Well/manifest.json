@@ -1,0 +1,24 @@
+{
+  "Group": "ninitale",
+  "Name": "Well",
+  "Version": "1.0.0",
+  "Description": "Adds a well that fills buckets with water. Modified from Ryozu's Wellwater mod, assets used under MIT license.",
+  "Authors": [
+    {
+      "Name": "Ryozu",
+      "Email": "ryozu.hytale@n1nj4.org",
+      "Url": "https://www.curseforge.com/members/ryozu/projects"
+    },
+	{
+      "Name": "Lunarexxy",
+      "Email": "",
+      "Url": "https://nini.zone"
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true
+}
