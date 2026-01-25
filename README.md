@@ -1,6 +1,26 @@
-This is a collection of Hytale mods I've made or changed for my own use!
+This is a collection of Hytale mods I've made or changed for my own use! They're split into individual packs. Each pack is standalone, and does not rely on any others. They're generally tested and ready for use.
 
-They're generally tested and ready for use. One big exception is the WIP pack, which I use to store whatever I've been working on that I want to save. See the known issues section below for more info.
+One big exception is the WIP pack, which I use to store whatever I've been working on that I want to save. See the known issues section below for more info.
+
+## Modpacks
+
+Many packs override vanilla items, and may be incompatible with other mods! If anyone knows the best practices for keeping things compatible, I'd love to learn them!
+
+Anything marked with (!) overrides vanilla items.
+
+* **Helper Blocks:** Currently just contains a rotation gizmo viewer. At no rotation, its colored axis arrows correspond to Hytale's co-ordinates and cardinal directions.
+
+* **Well:** _(Unfinished!)_ Contains a well that allows you to put fluid containers in and fill them with infinite water! Very useful for farms and cooking. Currently not finished, so looks very ugly. But it works.
+
+* **(!) Beam Blocks:** Contains crossbeam and corner variants to vanilla Hytale wooden beams, letting you connect the vertical and horizontal beams cleanly. You can craft these at the Builder's Workbench, similar to how you craft normal wooden beams. Currently only supports Softwood beams, but all wood types will be supported soon.
+
+* **(!) Lighting Blocks:** Contains lantern variants with new colors, which can be created from regular lanterns in the Builder's Workbench. You can even turn colored lanterns back into the vanilla lantern by clicking it in the vertical Input list. You can also hold them as utility items!
+
+* **(!) Paintings:** Contains paintings with custom artwork. Currently only has a few for the 1x1 variant. Original painting model was tweaked to allow for 20x20 pixel art to be displayed. An Aseprite file is included for easy editing!
+
+* **(!) Vanilla Tweaks:** Modifies some vanilla items, either to re-balance them for quality of life, or to allow for more freedom in building on my own server.
+
+* **(!) WIP:** A random assortment of stuff I saved for later use, or as reference. Probably not useful to you
 
 
 ## Installing
@@ -22,13 +42,11 @@ Each pack in the mod is a stand-alone modpack and can be installed separately by
 **Beam Blocks:**
  * WIP: Only fully supports Softwood at the moment. Adding the rest eventually!
  * WIP: Rotation mechanics feel unintuitive. I saw stairs use a specific rotation setup which might help.
+ * WIP: Hitboxes were largely borrowed from stairs, which isn't ideal. Custom hitboxes are planned.
  * Bug: Textures may not line up perfectly with vanilla beams, due to block rotation mis-aligning it. I don't know if I can fix it.
 
 **Paintings:**
  * Bug: The 1x1 painting frame might look a bit off. This seems to be a Hytale rendering bug or something, which is also present in the vanilla frame. I can't fix it.
-
-**Lighting Blocks:**
- * Bug: The lanterns look weird when held in main hand, since the animation was meant for torches.
 
 **Well:**
  * WIP: The textures and hitbox are incomplete, though the well itself works. Currently being updated to a 3x3 block version that fits Hytale's style a bit better.
@@ -48,7 +66,7 @@ Language (.lang) files should be named after the modpack, to avoid conflicts. I'
 ## Copyright/License
 
 You are generally free to copy and modify any and all contents of this repository for your own personal and commercial use, unless otherwise specified.
-Credit is optional but appreciated.
+Credit is optional but appreciated. I'm just happy if anyone can get some value out of these packs.
 
 ### Exceptions:
 
