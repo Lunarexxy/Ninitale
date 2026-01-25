@@ -163,6 +163,15 @@
     "Usable": true
   },
   "Interactions": {
+    "Primary": "Root_Unarmed_Attack_Swing_Left",
     "Secondary": "Block_Secondary"
+  },
+  "InteractionConfig": {
+    "Priorities": {
+      "Secondary": {
+        "MainHand": 1,
+        "OffHand": -1
+      }
+    }
   }
 }
