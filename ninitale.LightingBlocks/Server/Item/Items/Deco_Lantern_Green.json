@@ -135,7 +135,7 @@
       "Color": "#3a3"
     }
   },
-  "PlayerAnimationsId": "Block",
+  "PlayerAnimationsId": "Torch",
   "Tags": {
     "Type": [
       "Deco"
@@ -158,5 +158,11 @@
     {
       "Id": "RT_Lanterns"
     }
-  ]
+  ],
+  "Utility": {
+    "Usable": true
+  },
+  "Interactions": {
+    "Secondary": "Block_Secondary"
+  }
 }

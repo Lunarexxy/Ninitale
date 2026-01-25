@@ -20,14 +20,18 @@ Each pack in the mod is a stand-alone modpack and can be installed separately by
 ## To-do and known issues
 
 **Beam Blocks:**
- * Only fully supports Softwood at the moment. (WIP!)
- * Textures may not line up perfectly with vanilla beams, due to block rotation mis-aligning it. I don't know if I can fix it.
+ * WIP: Only fully supports Softwood at the moment. Adding the rest eventually!
+ * WIP: Rotation mechanics feel unintuitive. I saw stairs use a specific rotation setup which might help.
+ * Bug: Textures may not line up perfectly with vanilla beams, due to block rotation mis-aligning it. I don't know if I can fix it.
 
 **Paintings:**
- * The 1x1 painting frame might look a bit off. This seems to be a Hytale rendering bug or something. I can't fix it.
+ * Bug: The 1x1 painting frame might look a bit off. This seems to be a Hytale rendering bug or something, which is also present in the vanilla frame. I can't fix it.
+
+**Lighting Blocks:**
+ * Bug: The lanterns look weird when held in main hand, since the animation was meant for torches.
 
 **Well:**
- * The textures and hitbox are incomplete, though the well itself works. Currently being updated to a 3x3 block version that fits Hytale's style a bit better.
+ * WIP: The textures and hitbox are incomplete, though the well itself works. Currently being updated to a 3x3 block version that fits Hytale's style a bit better.
 
 
 ## Editing mods
