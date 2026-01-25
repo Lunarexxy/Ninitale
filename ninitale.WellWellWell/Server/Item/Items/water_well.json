@@ -3,7 +3,7 @@
     "Name": "nini_well.items.Water_Well.name",
     "Description": "nini_well.items.Water_Well.description"
   },
-  "Icon": "Icons/ItemsGenerated/water_well.png",
+  "Icon": "Icons/ItemsGenerated/Water_Well.png",
   "Categories": [
     "Furniture.Benches"
   ],
@@ -135,15 +135,15 @@
   "ItemSoundSetId": "ISS_Blocks_Stone",
   "Model": "Blocks/Benches/Water_Well.blockymodel",
   "IconProperties": {
-    "Scale": 0.4,
+    "Scale": 0.3,
     "Rotation": [
       22.5,
       45,
       22.5
     ],
     "Translation": [
-      23,
-      -27
+      -1,
+      -33
     ]
   }
 }
