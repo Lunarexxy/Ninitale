@@ -110,7 +110,7 @@
         }
       ]
     },
-    "CustomModel": "Blocks/Decorative_Sets/Village/Lantern.blockymodel",
+    "CustomModel": "Blocks/Decorative_Sets/Village/Lantern_Holdable.blockymodel",
     "Interactions": {
       "Use": {
         "Interactions": [
