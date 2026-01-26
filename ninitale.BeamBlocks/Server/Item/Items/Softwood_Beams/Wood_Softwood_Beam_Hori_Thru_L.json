@@ -48,7 +48,11 @@
     },
     "ParticleColor": "#65482d",
     "BlockSoundSetId": "Branch",
-    "FlipType": "Symmetric"
+    "FlipType": "Symmetric",
+    "PlacementSettings": {
+      "BlockPreviewVisibility": "AlwaysVisible",
+      "RotationMode": "StairFacingPlayer"
+    }
   },
   "ResourceTypes": [
     {

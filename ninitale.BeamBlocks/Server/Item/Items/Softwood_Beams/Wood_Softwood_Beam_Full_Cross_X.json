@@ -65,6 +65,9 @@
           "FaceType": "Wood_Beam"
         }
       ]
+    },
+    "PlacementSettings": {
+      "BlockPreviewVisibility": "AlwaysVisible"
     }
   },
   "ResourceTypes": [
