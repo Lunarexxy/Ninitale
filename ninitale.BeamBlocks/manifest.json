@@ -1,7 +1,7 @@
 {
   "Group": "ninitale",
   "Name": "Beam Blocks",
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "Description": "Adds corner and cross beam types, creating options for connecting the vanilla horizontal and vertical beams.",
   "Authors": [
     {

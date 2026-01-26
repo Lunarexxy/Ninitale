@@ -1,7 +1,7 @@
 {
   "Group": "ninitale",
   "Name": "Well",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "Adds a well that fills buckets with water. Modified from Ryozu's Wellwater mod, assets used under MIT license.",
   "Authors": [
     {
