@@ -7,12 +7,6 @@
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
-    "Textures": [
-      {
-        "All": "BlockTextures/Soil_Dirt.png",
-        "Weight": 1
-      }
-    ],
     "BlockSoundSetId": "Dirt",
     "BlockBreakingDecalId": "Breaking_Decals_Soil",
     "CustomModel": "Blocks/Gizmo/RotationGizmo.blockymodel",
