@@ -10,7 +10,7 @@ Anything marked with (!) overrides vanilla items.
 
 * **Helper Blocks:** Currently just contains a rotation gizmo viewer. At no rotation, its colored axis arrows correspond to Hytale's co-ordinates and cardinal directions.
 
-* **Well:** _(Unfinished!)_ Contains a well that allows you to put fluid containers in and fill them with infinite water! Very useful for farms and cooking. Currently not finished, so looks very ugly. But it works.
+* **Well:** Contains a well that allows you to put fluid containers in and fill them with infinite water! Very useful for farms and cooking. Currently not finished, so looks very ugly. But it works.
 
 * **(!) Beam Blocks:** Contains crossbeam and corner variants to vanilla Hytale wooden beams, letting you connect the vertical and horizontal beams cleanly. You can craft these at the Builder's Workbench, similar to how you craft normal wooden beams. Currently only supports Softwood beams, but all wood types will be supported soon.
 
@@ -41,16 +41,11 @@ Each pack in the mod is a stand-alone modpack and can be installed separately by
 
 **Beam Blocks:**
  * WIP: Only fully supports Softwood at the moment. Adding the rest eventually!
- * WIP: Rotation mechanics feel unintuitive. I saw stairs use a specific rotation setup which might help.
  * WIP: Hitboxes were largely borrowed from stairs, which isn't ideal. Custom hitboxes are planned.
  * Bug: Textures may not line up perfectly with vanilla beams, due to block rotation mis-aligning it. I don't know if I can fix it.
 
 **Paintings:**
  * Bug: The 1x1 painting frame might look a bit off. This seems to be a Hytale rendering bug or something, which is also present in the vanilla frame. I can't fix it.
-
-**Well:**
- * WIP: The textures and hitbox are incomplete, though the well itself works. Currently being updated to a 3x3 block version that fits Hytale's style a bit better.
-
 
 ## Editing mods
 
