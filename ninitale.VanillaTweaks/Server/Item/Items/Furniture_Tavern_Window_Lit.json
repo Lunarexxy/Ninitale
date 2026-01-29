@@ -1,0 +1,63 @@
+{
+  "Parent": "Furniture_Tavern_Window",
+  "BlockType": {
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "Off": "default"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "Off": {
+          "Light": {
+            "Radius": 0,
+            "Color": "#000"
+          },
+          "InteractionHint": "server.interactionHints.turnon"
+        }
+      }
+    },
+    "Light": {
+      "Color": "#cb8",
+      "Radius": 10
+    },
+    "InteractionHint": "server.interactionHints.turnoff",
+    "Gathering": {
+      "Breaking": {
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Furniture_Tavern_Window"
+            }
+          }
+        },
+        "GatherType": "Woods"
+      }
+    }
+  },
+  "TranslationProperties": {
+    "Name": "nini_vanillatweaks.items.Tavern_Window_Lit.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Furniture_Tavern_Window_Lit.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

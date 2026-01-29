@@ -1,0 +1,39 @@
+{
+  "Parent": "Furniture_Tavern_Window",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Tavern/Window_Texture_Transparent.png"
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Furniture_Tavern_Window"
+            }
+          }
+        },
+        "GatherType": "Woods"
+      }
+    }
+  },
+  "TranslationProperties": {
+    "Name": "nini_vanillatweaks.items.Tavern_Window_Transparent.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Furniture_Tavern_Window_Transparent.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

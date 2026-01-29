@@ -1,0 +1,43 @@
+{
+  "Parent": "Furniture_Human_Ruins_Window",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Human_Ruins/Window_default.png"
+      }
+    ],
+    "State": {
+      "Definitions": {
+        "On": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Decorative_Sets/Human_Ruins/Window_default.png"
+            }
+          ],
+          "InteractionHint": "server.interactionHints.turnoff",
+          "Light": {
+            "Color": "#cb7"
+          }
+        }
+      }
+    },
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "On",
+              "On": "default"
+            }
+          }
+        ]
+      }
+    },
+    "InteractionHint": "server.interactionHints.turnon"
+  },
+  "Interactions": {
+    "Primary": "Root_Unarmed_Attack_Swing_Left",
+    "Secondary": "Block_Secondary"
+  }
+}
