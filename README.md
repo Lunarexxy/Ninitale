@@ -18,7 +18,7 @@ Anything marked with ❗ overrides vanilla items.
 
 * **❗ Paintings:** Contains paintings with custom artwork. Currently only has a few for the 1x1 variant. Original painting model was tweaked to allow for 20x20 pixel art to be displayed. An Aseprite file is included for easy editing!
 
-* **❗ Vanilla Tweaks:** Modifies some vanilla items, either to re-balance them for quality of life, or to allow for more freedom in building on my own server.
+* **❗ Vanilla Tweaks:** Modifies or expands upon some vanilla items, either to re-balance them for quality of life, or to allow for more freedom in building on my own server.
 
 **Not recommended for use:**
 
