@@ -6,21 +6,25 @@ One big exception is the WIP pack, which I use to store whatever I've been worki
 
 Many packs override vanilla items, and may be incompatible with other mods! If anyone knows the best practices for keeping things compatible, I'd love to learn them!
 
-Anything marked with (!) overrides vanilla items.
+Anything marked with ❗ overrides vanilla items.
 
 * **Helper Blocks:** Currently just contains a rotation gizmo viewer. At no rotation, its colored axis arrows correspond to Hytale's co-ordinates and cardinal directions.
 
-* **Well:** Contains a well that allows you to put fluid containers in and fill them with infinite water! Very useful for farms and cooking. Currently not finished, so looks very ugly. But it works.
+* **Well:** Contains a well that allows you to put fluid containers in and fill them with infinite water! Very useful for farms and cooking.
 
-* **(!) Beam Blocks:** Contains crossbeam and corner variants to vanilla Hytale wooden beams, letting you connect the vertical and horizontal beams cleanly. You can craft these at the Builder's Workbench, similar to how you craft normal wooden beams. Currently only supports Softwood beams, but all wood types will be supported soon.
+* **❗ Beam Blocks:** Contains crossbeam and corner variants to vanilla Hytale wooden beams, letting you connect the vertical and horizontal beams cleanly. You can craft these at the Builder's Workbench, similar to how you craft normal wooden beams. Currently only supports Softwood beams, but all wood types will be supported soon.
 
-* **(!) Lighting Blocks:** Contains lantern variants with new colors, which can be created from regular lanterns in the Builder's Workbench. You can even turn colored lanterns back into the vanilla lantern by clicking it in the vertical Input list. You can also hold them as utility items!
+* **❗ Lighting Blocks:** Contains lantern variants with new colors, which can be created from regular lanterns in the Builder's Workbench. You can even turn colored lanterns back into the vanilla lantern by clicking it in the vertical Input list. You can also hold them as utility items!
 
-* **(!) Paintings:** Contains paintings with custom artwork. Currently only has a few for the 1x1 variant. Original painting model was tweaked to allow for 20x20 pixel art to be displayed. An Aseprite file is included for easy editing!
+* **❗ Paintings:** Contains paintings with custom artwork. Currently only has a few for the 1x1 variant. Original painting model was tweaked to allow for 20x20 pixel art to be displayed. An Aseprite file is included for easy editing!
 
-* **(!) Vanilla Tweaks:** Modifies some vanilla items, either to re-balance them for quality of life, or to allow for more freedom in building on my own server.
+* **❗ Vanilla Tweaks:** Modifies some vanilla items, either to re-balance them for quality of life, or to allow for more freedom in building on my own server.
 
-* **(!) WIP:** A random assortment of stuff I saved for later use, or as reference. Probably not useful to you
+**Do not use the following:**
+
+* **❗ WIP:** A random assortment of stuff I saved for later use, or as reference. Probably not useful to you and might break stuff.
+
+* **ETC:** Things that are useful on my own friend group server. Probably not useful to you and might break stuff.
 
 
 ## Installing
@@ -67,3 +71,4 @@ Credit is optional but appreciated. I'm just happy if anyone can get some value 
 
  * **Paintings:** Contains art assets derived from vanilla Hytale assets, with my own artworks applied, and potentially art created by others in the future. These artworks should be assumed to not be free for commercial use, and credit must be provided to the work's artist(s) in the in-game painting item's description.
  * **Well:** Contains textures modified from [Ryozu's WellWater mod](https://www.curseforge.com/hytale/mods/well-water), as well as textures created from vanilla Hytale assets. The WellWater mod assets are used under the MIT license.
+ * **ETC/WIP:** Might contain assets created by others, used with or without permission for placeholder or personal server use. Nothing here is guaranteed free for any use. They're just saved here too for my own convenience.

@@ -1,0 +1,14 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/UI/Chat_Sounds/SFX_PM_Question.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -1,
+        "MaxPitch": 1
+      },
+      "Volume": -9
+    }
+  ]
+}

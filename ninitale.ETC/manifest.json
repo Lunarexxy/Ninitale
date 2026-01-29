@@ -1,0 +1,19 @@
+{
+  "Group": "ninitale",
+  "Name": "ETC",
+  "Version": "1.0.0",
+  "Description": "ninitale things for nini server",
+  "Authors": [
+    {
+      "Name": "Lunarexxy",
+      "Email": "",
+      "Url": "https://nini.zone"
+    }
+  ],
+  "Website": "https://nini.zone",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true
+}

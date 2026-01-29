@@ -1,0 +1,14 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/UI/Chat_Sounds/SFX_PM_Blip.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -0.5,
+        "MaxPitch": 0.5
+      },
+      "Volume": -5
+    }
+  ]
+}
