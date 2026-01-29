@@ -20,7 +20,7 @@ Anything marked with ❗ overrides vanilla items.
 
 * **❗ Vanilla Tweaks:** Modifies some vanilla items, either to re-balance them for quality of life, or to allow for more freedom in building on my own server.
 
-**Do not use the following:**
+**Not recommended for use:**
 
 * **❗ WIP:** A random assortment of stuff I saved for later use, or as reference. Probably not useful to you and might break stuff.
 
