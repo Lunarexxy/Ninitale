@@ -1,12 +1,12 @@
 {
-  "Parent": "Rock_Stone_Brick_Half",
+  "Parent": "Soil_Clay_Smooth_Black_Half",
   "BlockType": {
     "Material": "Solid",
     "DrawType": "Model",
     "CustomModel": "Blocks/Structures/Base_Shapes/HalfBlock.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "BlockTextures/Clay_Smooth_Black.png",
+        "Texture": "BlockTextures/Clay_Smooth_Black_Striped.png",
         "Weight": 1
       }
     ],
@@ -18,7 +18,7 @@
         "GatherType": "Rocks"
       }
     },
-    "VariantRotation": "DoublePipe",
+    "VariantRotation": "UpDownNESW",
     "BlockParticleSetId": "Stone",
     "Supporting": {
       "Down": [
@@ -52,7 +52,10 @@
       "PlaceInEmptyBlocks": true
     }
   },
-  "Icon": "Icons/ItemsGenerated/Soil_Clay_Smooth_Black_Half.png",
+  "TranslationProperties": {
+    "Name": "nini_niniburg.items.Soil_Clay_Smooth_Black_Half_Striped.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Soil_Clay_Smooth_Black_Half_Striped.png",
   "IconProperties": {
     "Scale": 0.58823,
     "Rotation": [
@@ -64,8 +67,5 @@
       0,
       -13.5
     ]
-  },
-  "TranslationProperties": {
-    "Name": "nini_niniburg.items.Soil_Clay_Smooth_Black_Half.name"
   }
 }
