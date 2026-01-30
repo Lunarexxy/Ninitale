@@ -34,10 +34,39 @@
         ]
       }
     },
-    "InteractionHint": "server.interactionHints.turnon"
+    "InteractionHint": "server.interactionHints.turnon",
+    "Gathering": {
+      "Breaking": {
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Furniture_Human_Ruins_Window"
+            }
+          }
+        },
+        "GatherType": "Woods"
+      }
+    }
   },
   "Interactions": {
     "Primary": "Root_Unarmed_Attack_Swing_Left",
     "Secondary": "Block_Secondary"
+  },
+  "Icon": "Icons/ItemsGenerated/Furniture_Human_Ruins_Window_Single_Texture.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "nini_vanillatweaks.items.Lost_Civ_Window_Single_Texture.name"
   }
 }
