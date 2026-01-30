@@ -22,9 +22,11 @@ Anything marked with ❗ overrides vanilla items.
 
 **Not recommended for use:**
 
+* **ETC:** Things that are useful on my own friend group server. Probably not useful to you and might break stuff.
+
 * **❗ WIP:** A random assortment of stuff I saved for later use, or as reference. Probably not useful to you and might break stuff.
 
-* **ETC:** Things that are useful on my own friend group server. Probably not useful to you and might break stuff.
+* **Niniburg:** I just made this for my own use in making a modern-style town.
 
 
 ## Installing

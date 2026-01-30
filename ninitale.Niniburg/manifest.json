@@ -1,0 +1,20 @@
+{
+  "Group": "ninitale",
+  "Name": "Niniburg",
+  "Version": "1.0.0",
+  "Description": "pack of niniburg",
+  "Authors": [
+    {
+      "Name": "Lunarexxy",
+      "Email": "",
+      "Url": "https://nini.zone"
+    }
+  ],
+  "Website": "https://nini.zone",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
