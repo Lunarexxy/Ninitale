@@ -1,4 +1,6 @@
-This is a collection of Hytale mods I've made or changed for my own use! They're split into individual packs. Each pack is standalone, and does not rely on any others. They're generally tested and ready for use.
+This is a collection of Hytale mods I've made or changed for my own use! They're split into individual packs. Each pack is standalone, and does not rely on any others.
+
+**They were last tested for general use in January 2026, so use at your own risk.**
 
 One big exception is the WIP pack, which I use to store whatever I've been working on that I want to save. See the known issues section below for more info.
 
@@ -12,7 +14,7 @@ Anything marked with ❗ overrides vanilla items.
 
 * **Well:** Contains a well that allows you to put fluid containers in and fill them with infinite water! Very useful for farms and cooking.
 
-* **❗ Beam Blocks:** Contains crossbeam and corner variants to vanilla Hytale wooden beams, letting you connect the vertical and horizontal beams cleanly. You can craft these at the Builder's Workbench, similar to how you craft normal wooden beams. Currently only supports Softwood beams, but all wood types will be supported soon.
+* **❗ Beam Blocks:** Contains crossbeam and corner variants to vanilla Hytale wooden beams, letting you connect the vertical and horizontal beams cleanly. You can craft these at the Builder's Workbench, similar to how you craft normal wooden beams. Currently only supports Softwood beams, but all wood types will be supported as soon as I duplicate the item files to each wood type.
 
 * **❗ Lighting Blocks:** Contains lantern variants with new colors, which can be created from regular lanterns in the Builder's Workbench. You can even turn colored lanterns back into the vanilla lantern by clicking it in the vertical Input list. You can also hold them as utility items!
 
@@ -33,13 +35,16 @@ Anything marked with ❗ overrides vanilla items.
 
 Each pack in the mod is a stand-alone modpack and can be installed separately by placing it in your server's (or world's) `mods/` folder.
 
+**Download:**
+You can download the whole repository [here](https://github.com/Lunarexxy/Ninitale/archive/refs/heads/main.zip), or use the green "Code" button further up. Each modpack is in its own folder.
+
 **Before adding to a dedicated server:**
 1. Stop the server to save everything and kick everyone.
 2. Back up everything on the server except the `Server/` folder and `Assets.zip` file.
 3. Fully remove the folders containing the modpacks being changed.
 
 **Installing:**
-1. Place the updated modpacks in the server's `mods/` folder, e.g. `mods/ninitale.BeamBlocks/`
+1. Place the updated modpack folders in the server's `mods/` folder, e.g. `mods/ninitale.BeamBlocks/`
 2. Restart server.
 
 
